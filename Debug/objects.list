@@ -1,0 +1,6 @@
+"Drivers/Src/spi_driver.o"
+"Drivers/Src/stm32f407xx_gpio_driver.o"
+"Src/SPI_Master.o"
+"Src/syscalls.o"
+"Src/sysmem.o"
+"Startup/startup_stm32f407vgtx.o"

@@ -1,0 +1,17 @@
+spi_driver.c:29:6:SPI_PeriClockControl	16	static
+spi_driver.c:77:6:SPI_Init	16	static
+spi_driver.c:144:6:SPI_DeInit	16	static
+spi_driver.c:173:6:SPI_SendData	24	static
+spi_driver.c:206:6:SPI_ReceiveData	24	static
+spi_driver.c:241:6:SPI_IRQInterruptConfig	24	static
+spi_driver.c:269:6:SPI_IRQPriorityConfig	24	static
+spi_driver.c:294:6:SPI_IRQHandling	24	static
+spi_driver.c:339:9:SPI_SendDataIT	32	static
+spi_driver.c:371:9:SPI_ReceiveDataIT	32	static
+spi_driver.c:393:6:SPI_PeripheralControl	16	static
+spi_driver.c:404:6:SPI_SSIConfig	16	static
+spi_driver.c:415:9:SPI_GetFlag	16	static
+spi_driver.c:419:6:SPI_SSOEConfig	16	static
+spi_driver.c:431:6:spi_txe_interrupt_handle	16	static
+spi_driver.c:456:6:spi_rxne_interrupt_handle	16	static
+spi_driver.c:481:6:spi_ovr_err_interrupt_handle	16	static
