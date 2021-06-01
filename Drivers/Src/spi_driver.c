@@ -390,17 +390,45 @@ uint8_t SPI_ReceiveDataIT(SPI_Handle_t *pSPIHandle, uint8_t *pRxBuffer, uint32_t
 /*
  * Other Peripheral Control APIs
  */
+
+/*****************************************************************************
+ * @fn			- SPI_PeripheralControl
+ *
+ * @brief		- This function enables or disables given SPI peripheral via SPI enable bit of CR1 register
+ *
+ * @param[in]	- pSPIx: A structure that includes base address of SPI Peripheral
+ * @param[in]	- EnorDi: Indicates enable or disable options
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
 void SPI_PeripheralControl(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
 {
 	if(EnorDi == ENABLE)
 	{
-		pSPIx->SPI_CR1 |= (1 << 6);
+		pSPIx->SPI_CR1 |= (1 << 6);  // Set SPI enable bit
 	}
 	else
 	{
-		pSPIx->SPI_CR1 &= ~(1 << 6);
+		pSPIx->SPI_CR1 &= ~(1 << 6);  // Reset SPI enable bit
 	}
 }
+
+/*****************************************************************************
+ * @fn			- SPI_SSIConfig
+ *
+ * @brief		- This function enables or disables "Internal Slave Select" option of given SPI peripheral via SSM (Software Slave Management) bit of CR1 Register
+ *
+ * @param[in]	- pSPIx: A structure that includes base address of SPI Peripheral
+ * @param[in]	- EnorDi: Indicates enable or disable options
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
 void SPI_SSIConfig(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
 {
 	if(EnorDi == ENABLE)
@@ -412,10 +440,38 @@ void SPI_SSIConfig(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
 		pSPIx->SPI_CR1 &= ~(1 << 8);
 	}
 }
+
+/*****************************************************************************
+ * @fn			- SPI_GetFlag
+ *
+ * @brief		- This function returns given SPI Flag
+ *
+ * @param[in]	- pSPIx: A structure that includes base address of SPI Peripheral
+ * @param[in]	- flag: Indicates flags  --  check for options: @spi_flags   in SPI driver header file
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
 uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx, uint8_t flag)
 {
-	return (uint8_t)((pSPIx->SPI_SR >> flag) & 1);
+	return (uint8_t)((pSPIx->SPI_SR >> flag) & 1); // check for options: @spi_flags   in SPI driver header file
 }
+
+/*****************************************************************************
+ * @fn			- SPI_SSOEConfig
+ *
+ * @brief		- This function enables or disables "Slave Select Output Enable" for given SPI peripheral via SSOE bit of CR2 Regiser
+ *
+ * @param[in]	- pSPIx: A structure that includes base address of SPI Peripheral
+ * @param[in]	- EnorDi: Indicates enable or disable options
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
 void SPI_SSOEConfig(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
 {
 	if(EnorDi == ENABLE)
@@ -428,7 +484,20 @@ void SPI_SSOEConfig(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
 	}
 }
 
-void spi_txe_interrupt_handle(SPI_Handle_t *pSPIHandle)
+/*****************************************************************************
+ * @fn			- spi_txe_interrupt_handle
+ *
+ * @brief		- This function runs SPI transmit steps when TXE happens
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- none
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+static void spi_txe_interrupt_handle(SPI_Handle_t *pSPIHandle)
 {
 	if( !((pSPIHandle->pSPIx->SPI_CR1 >> 11) & 1) ) // Check DFF
 	{
@@ -446,14 +515,25 @@ void spi_txe_interrupt_handle(SPI_Handle_t *pSPIHandle)
 	}
 	if(pSPIHandle->TxLen == 0)
 	{
-		pSPIHandle->pSPIx->SPI_CR2 &= ~(1 << 7); 	// Clear the TXEIE bit
-		pSPIHandle->pTxBuffer = NULL;
-		pSPIHandle->TxLen = 0;
-		pSPIHandle->TxState = SPI_READY;
+		SPI_CloseTransmission(pSPIHandle);
 		SPI_ApplicationEventCallback(pSPIHandle, SPI_EVENT_TX_CMPLT);
 	}
 }
-void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIHandle)
+
+/*****************************************************************************
+ * @fn			- spi_rxne_interrupt_handle
+ *
+ * @brief		-  This function runs SPI receive steps when RXE happens
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- none
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIHandle)
 {
 	if( !((pSPIHandle->pSPIx->SPI_CR1 >> 11) & 1) ) // Check DFF
 	{
@@ -471,14 +551,117 @@ void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIHandle)
 	}
 	if(pSPIHandle->RxLen == 0)
 	{
-		pSPIHandle->pSPIx->SPI_CR2 &= ~(1 << 6); 	// Clear the RXNEIE bit
-		pSPIHandle->pRxBuffer = NULL;
-		pSPIHandle->RxLen = 0;
-		pSPIHandle->RxState = SPI_READY;
+		SPI_CloseReception(pSPIHandle);
 		SPI_ApplicationEventCallback(pSPIHandle, SPI_EVENT_RX_CMPLT);
 	}
 }
-void spi_ovr_err_interrupt_handle(SPI_Handle_t *pSPIHandle)
-{
 
+/*****************************************************************************
+ * @fn			- spi_ovr_err_interrupt_handle
+ *
+ * @brief		-  This function runs SPI handling steps when spi overrun error happens
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- none
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+static void spi_ovr_err_interrupt_handle(SPI_Handle_t *pSPIHandle)
+{
+	uint8_t temp;
+
+	// 1. Clean the ovr flag -- (This steps describes in MCU's relevant reference manual document)
+	if(pSPIHandle->TxState != SPI_BUSY_IN_TX) // IS SPI is not busy with transmit data
+	{
+		temp = pSPIHandle->pSPIx->SPI_DR; // Read access to DR register
+		temp = pSPIHandle->pSPIx->SPI_SR; // Read access to SR register
+	}
+	(void)temp;
+	// 2. Inform application
+	SPI_ApplicationEventCallback(pSPIHandle, SPI_EVENT_OVR_ERR);
+}
+
+/*****************************************************************************
+ * @fn			- SPI_ClearOVRFlag
+ *
+ * @brief		-  This function runs SPI handling steps when spi overrun error happens
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- none
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+void SPI_ClearOVRFlag(SPI_RegDef_t *pSPIx)
+{
+	uint8_t temp;
+	temp = pSPIx->SPI_DR; // Read access to DR register
+	temp = pSPIx->SPI_SR; // Read access to SR register
+	(void)temp; // For prevent unused variable warning
+}
+
+/*****************************************************************************
+ * @fn			- SPI_CloseTransmission
+ *
+ * @brief		-  This function runs SPI handling steps when spi overrun error happens
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- none
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+void SPI_CloseTransmission(SPI_Handle_t *pSPIHandle)
+{
+	pSPIHandle->pSPIx->SPI_CR2 &= ~(1 << 7); 	// Clear the TXEIE bit
+	pSPIHandle->pTxBuffer = NULL;
+	pSPIHandle->TxLen = 0;
+	pSPIHandle->TxState = SPI_READY;
+}
+
+/*****************************************************************************
+ * @fn			- SPI_CloseReception
+ *
+ * @brief		-  This function runs SPI handling steps when spi overrun error happens
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- none
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+void SPI_CloseReception(SPI_Handle_t *pSPIHandle)
+{
+	pSPIHandle->pSPIx->SPI_CR2 &= ~(1 << 6); 	// Clear the RXNEIE bit
+	pSPIHandle->pRxBuffer = NULL;
+	pSPIHandle->RxLen = 0;
+	pSPIHandle->RxState = SPI_READY;
+}
+
+
+/*****************************************************************************
+ * @fn			- SPI_ApplicationEventCallback
+ *
+ * @brief		-  This is weak implementation. The application may override this function.
+ *
+ * @param[in]	- pSPIHandle: A structure that includes base address of SPI Peripheral and config structures and non-blocking(Interrupt) mode global variables
+ * @param[in]	- AppEv: Indicates Event Type
+ * @param[in]	- none
+ *
+ * @return		- none
+ *
+ * @Note		- none
+ */
+__attribute__((weak)) void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t AppEv)
+{
+	// This is weak implementation. The application may override this function.
 }

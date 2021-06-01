@@ -121,9 +121,18 @@ void SPI_PeripheralControl(SPI_RegDef_t *pSPIx, uint8_t EnorDi);
 void SPI_SSIConfig(SPI_RegDef_t *pSPIx, uint8_t EnorDi);
 uint8_t SPI_GetFlag(SPI_RegDef_t *pSPIx, uint8_t flag);
 void SPI_SSOEConfig(SPI_RegDef_t *pSPIx, uint8_t EnorDi);
+void SPI_ClearOVRFlag(SPI_RegDef_t *pSPIx);
+void SPI_CloseTransmission(SPI_Handle_t *pSPIHandle);
+void SPI_CloseReception(SPI_Handle_t *pSPIHandle);
 
 
-/* SPI SR FLAGS */
+/*
+ * AplicationEventCallback Function
+ */
+void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t AppEv);
+
+
+/* SPI SR FLAGS */   // @spi_flags
 #define SPI_FLAG_RXNE		0
 #define SPI_FLAG_TXE		1
 #define SPI_FLAG_CHSIDE		2
