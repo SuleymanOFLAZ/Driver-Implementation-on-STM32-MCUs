@@ -1,8 +1,0 @@
-SPI_Master.c:61:9:ACKorNACK	16	static
-SPI_Master.c:69:5:main	16	static
-SPI_Master.c:254:6:InitGPIO	24	static
-SPI_Master.c:284:6:InitSPI	40	static
-SPI_Master.c:305:6:InitButton	24	static
-SPI_Master.c:325:6:EXTI0_IRQHandler	8	static
-SPI_Master.c:334:6:SendMessage	56	static
-SPI_Master.c:349:6:delay	16	static

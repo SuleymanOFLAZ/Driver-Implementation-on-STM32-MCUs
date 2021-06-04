@@ -10,3 +10,1461 @@
 
 
 2021-06-02 01:23:26,839 [INFO] Activator:171 - !SESSION log4j initialized
+2021-06-04 19:42:48,268 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-06-04 19:42:49,056 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-06-04 19:42:49,073 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-06-04 19:42:49,079 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-06-04 19:42:49,079 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,080 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,083 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,095 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,097 [INFO] DbMcusJson:63 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,098 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,100 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,290 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-06-04 19:42:49,295 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,460 [INFO] RulesReader:52 - Compatibility file has been processed (228 Rules)
+2021-06-04 19:42:49,581 [INFO] MicroXplorer:565 - Detected Java Version = 1.8.0_272
+2021-06-04 19:42:49,581 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-06-04 19:42:49,583 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-06-04 19:42:49,583 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,583 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,584 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,584 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,584 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,584 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,585 [INFO] DbMcusJson:63 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,585 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,585 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,585 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,586 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,586 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,586 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,586 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-06-04 19:42:49,587 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,587 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,698 [INFO] MainPanel:190 - HeapMemory: 334495744
+2021-06-04 19:42:49,819 [INFO] DbMcusXml:71 - Set database path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/
+2021-06-04 19:42:49,819 [INFO] DbBoardsPdsc:57 - Set plugin database path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/boardmanager/
+2021-06-04 19:42:49,820 [INFO] DbMcus:259 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,820 [INFO] DbBoards:265 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,820 [INFO] DbExamples:329 - Set plugin images path to: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/
+2021-06-04 19:42:49,821 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,821 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,822 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,822 [INFO] DbMcusJson:63 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,822 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,822 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,823 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,823 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,823 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,823 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,824 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-06-04 19:42:49,824 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\suley\.stmcufinder\plugins\mcufinder/ => C:\Users\suley\.stmcufinder\plugins\mcufinder
+2021-06-04 19:42:49,824 [INFO] DbExamplesSqlite:699 - Set database path to: C:\Users\suley\.stmcufinder\plugins\mcufinder//mcu/
+2021-06-04 19:42:49,854 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-06-04 19:42:49,857 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2021-06-04 19:42:49,859 [INFO] PluginManage:292 - Check plugin analytics
+2021-06-04 19:42:54,683 [INFO] AnalyticsPlugin:225 - Accepted Software Licenses: 
+2021-06-04 19:42:54,684 [INFO] AnalyticsPlugin:227 - Accepted CMSIS Pack Licenses: 
+2021-06-04 19:42:54,685 [INFO] AnalyticsPlugin:229 - Accepted Firmware Licenses: 
+2021-06-04 19:42:54,686 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-06-04 19:42:54,686 [INFO] PluginManage:292 - Check plugin clock
+2021-06-04 19:42:54,718 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-06-04 19:42:54,718 [INFO] PluginManage:292 - Check plugin ddr
+2021-06-04 19:42:54,722 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-06-04 19:42:54,722 [INFO] PluginManage:292 - Check plugin filemanager
+2021-06-04 19:42:54,888 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-06-04 19:42:54,888 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-06-04 19:42:54,900 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-06-04 19:42:54,900 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-06-04 19:42:54,932 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-06-04 19:42:54,932 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-06-04 19:42:54,987 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-06-04 19:42:54,988 [INFO] PluginManage:292 - Check plugin power
+2021-06-04 19:42:55,014 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-06-04 19:42:55,014 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-06-04 19:42:55,035 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-06-04 19:42:55,035 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-06-04 19:42:55,371 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-06-04 19:42:55,372 [INFO] PluginManage:292 - Check plugin tools
+2021-06-04 19:42:55,372 [WARN] IntegrityCheckThread:59 - waiting for thirdparty lock release [integrity check]
+2021-06-04 19:42:55,373 [INFO] IntegrityCheckThread:61 - entering critical section [integrity check]
+2021-06-04 19:42:55,373 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [1/15]
+2021-06-04 19:42:55,449 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-06-04 19:42:55,449 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-06-04 19:42:55,774 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-06-04 19:42:55,774 [INFO] PluginManage:292 - Check plugin updater
+2021-06-04 19:42:55,793 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-06-04 19:42:55,794 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2021-06-04 19:42:56,076 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-06-04 19:42:56,213 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,214 [INFO] PluginManager:203 - loadIPPluginJar : add adc
+2021-06-04 19:42:56,260 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,260 [INFO] PluginManager:203 - loadIPPluginJar : add aes
+2021-06-04 19:42:56,320 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,321 [INFO] PluginManager:203 - loadIPPluginJar : add can
+2021-06-04 19:42:56,358 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,359 [INFO] PluginManager:203 - loadIPPluginJar : add comp
+2021-06-04 19:42:56,404 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,404 [INFO] PluginManager:203 - loadIPPluginJar : add cryp
+2021-06-04 19:42:56,448 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,449 [INFO] PluginManager:203 - loadIPPluginJar : add dfsdm
+2021-06-04 19:42:56,469 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,470 [INFO] PluginManager:203 - loadIPPluginJar : add dma
+2021-06-04 19:42:56,504 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,505 [INFO] PluginManager:203 - loadIPPluginJar : add fatfs
+2021-06-04 19:42:56,574 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,574 [INFO] PluginManager:203 - loadIPPluginJar : add fmc
+2021-06-04 19:42:56,595 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,596 [INFO] PluginManager:203 - loadIPPluginJar : add freertos
+2021-06-04 19:42:56,632 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,633 [INFO] PluginManager:203 - loadIPPluginJar : add genericplugin
+2021-06-04 19:42:56,749 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,750 [INFO] PluginManager:203 - loadIPPluginJar : add gfxmmu
+2021-06-04 19:42:56,907 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,908 [INFO] PluginManager:203 - loadIPPluginJar : add gic
+2021-06-04 19:42:56,927 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:56,927 [INFO] PluginManager:203 - loadIPPluginJar : add gpio
+2021-06-04 19:42:57,017 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,017 [INFO] PluginManager:203 - loadIPPluginJar : add gtzc
+2021-06-04 19:42:57,063 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,063 [INFO] PluginManager:203 - loadIPPluginJar : add hash
+2021-06-04 19:42:57,135 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,135 [INFO] PluginManager:203 - loadIPPluginJar : add i2c
+2021-06-04 19:42:57,194 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,195 [INFO] PluginManager:203 - loadIPPluginJar : add i2s
+2021-06-04 19:42:57,211 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,211 [INFO] PluginManager:203 - loadIPPluginJar : add ipddr
+2021-06-04 19:42:57,261 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,262 [INFO] PluginManager:203 - loadIPPluginJar : add lorawan
+2021-06-04 19:42:57,312 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,312 [INFO] PluginManager:203 - loadIPPluginJar : add ltdc
+2021-06-04 19:42:57,330 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,330 [INFO] PluginManager:203 - loadIPPluginJar : add mdma
+2021-06-04 19:42:57,346 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,347 [INFO] PluginManager:203 - loadIPPluginJar : add nvic
+2021-06-04 19:42:57,395 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,395 [INFO] PluginManager:203 - loadIPPluginJar : add opamp
+2021-06-04 19:42:57,479 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,480 [INFO] PluginManager:203 - loadIPPluginJar : add openamp
+2021-06-04 19:42:57,537 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,537 [INFO] PluginManager:203 - loadIPPluginJar : add pdm2pcm
+2021-06-04 19:42:57,557 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,562 [INFO] PluginManager:203 - loadIPPluginJar : add plateformsettings
+2021-06-04 19:42:57,597 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,597 [INFO] PluginManager:203 - loadIPPluginJar : add quadspi
+2021-06-04 19:42:57,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,614 [INFO] PluginManager:203 - loadIPPluginJar : add resmgrutility
+2021-06-04 19:42:57,684 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,685 [INFO] PluginManager:203 - loadIPPluginJar : add sai
+2021-06-04 19:42:57,738 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,738 [INFO] PluginManager:203 - loadIPPluginJar : add spi
+2021-06-04 19:42:57,804 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,805 [INFO] PluginManager:203 - loadIPPluginJar : add stm32_wpan
+2021-06-04 19:42:57,841 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,842 [INFO] PluginManager:203 - loadIPPluginJar : add tim
+2021-06-04 19:42:57,923 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,923 [INFO] PluginManager:203 - loadIPPluginJar : add touchsensing
+2021-06-04 19:42:57,964 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:57,964 [INFO] PluginManager:203 - loadIPPluginJar : add tracer_emb
+2021-06-04 19:42:58,002 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:58,003 [INFO] PluginManager:203 - loadIPPluginJar : add ts
+2021-06-04 19:42:58,038 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:58,039 [INFO] PluginManager:203 - loadIPPluginJar : add tsc
+2021-06-04 19:42:58,076 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:58,076 [INFO] PluginManager:203 - loadIPPluginJar : add ucpd
+2021-06-04 19:42:58,137 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2021-06-04 19:42:58,137 [INFO] PluginManager:203 - loadIPPluginJar : add usart
+2021-06-04 19:42:58,383 [INFO] ThirdPartyUpdaterWithRetryManager:56 - Updater plugin not ready yet. [2/15]
+2021-06-04 19:42:58,505 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-06-04 19:42:58,680 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-06-04 19:42:58,739 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-06-04 19:42:58,743 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-06-04 19:42:58,744 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-06-04 19:42:58,851 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-06-04 19:42:58,851 [WARN] ThirdParty:783 - waiting for thirdparty lock release [close project]
+2021-06-04 19:43:01,388 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-06-04 19:43:01,389 [ERROR] AbstractThirdPartyUpdaterManager:153 - java.lang.Integer cannot be cast to java.util.List
+2021-06-04 19:43:01,389 [INFO] ThirdParty:887 - Integrity check success = false
+2021-06-04 19:43:01,389 [INFO] IntegrityCheckThread:75 - exiting critical section [integrity check]
+2021-06-04 19:43:01,389 [INFO] IntegrityCheckThread:78 - End integrity checks thread
+2021-06-04 19:43:01,389 [INFO] ThirdParty:785 - entering critical section [close project]
+2021-06-04 19:43:01,391 [INFO] ThirdParty:796 - exiting critical section [close project]
+2021-06-04 19:43:01,396 [INFO] PinOutPanel:1434 - setPackage(No Configuration,No Configuration)
+2021-06-04 19:43:01,397 [FATAL] Updater:284 - Updater called before beeing initialized
+2021-06-04 19:43:01,416 [ERROR] Updater:1065 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2021-06-04 19:43:01,432 [INFO] Updater:1002 - Updater Version found : 6.1.1
+2021-06-04 19:43:01,458 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304
+2021-06-04 19:43:01,782 [INFO] MainUpdater:2644 - connection check result : 10
+2021-06-04 19:43:01,782 [INFO] MainUpdater:3332 - Updater definition file requires update
+2021-06-04 19:43:01,784 [INFO] MainUpdater:249 - Updater Check For Update Now.
+2021-06-04 19:43:01,784 [INFO] MicroXplorer:415 - Change Database Version : DB.6.0.10
+2021-06-04 19:43:01,878 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2021-06-04 19:43:02,105 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2021-06-04 19:43:02,105 [INFO] FileExtend:240 - Standard Zip Deflate
+2021-06-04 19:43:02,787 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2021-06-04 19:43:02,893 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2021-06-04 19:43:03,319 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2021-06-04 19:43:04,030 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2021-06-04 19:43:04,526 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2021-06-04 19:43:05,649 [INFO] ServerAccessManage:348 - Download File SEGGER.I-CUBE-embOS.pdsc
+2021-06-04 19:43:06,226 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2021-06-04 19:43:06,232 [INFO] MainUpdater:2644 - connection check result : 10
+2021-06-04 19:43:06,546 [INFO] PopulateThirdPartyThread:50 - Ending populate Thread
+2021-06-04 19:43:06,549 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.0
+2021-06-04 19:43:06,549 [INFO] ThirdParty:939 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.1.0
+2021-06-04 19:43:06,550 [INFO] ThirdParty:939 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2021-06-04 19:43:06,550 [INFO] LoadServerUpdatesThread:329 - End of LoadServerUpdate Thread
+2021-06-04 19:43:07,424 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\suley\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-06-04 19:43:07,432 [INFO] MultiScanPanel:198 - Auto-refresh data requested => check proxy status ongoing
+2021-06-04 19:43:07,436 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2021-06-04 19:43:07,438 [INFO] DbMcusXml:97 - Load MCU database from C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/mcu/families.xml
+2021-06-04 19:43:08,252 [INFO] DbMcusJson:92 - JSON generation date=Mon Feb 08 16:35:07 TRT 2021 (1612791307)
+2021-06-04 19:43:09,513 [INFO] DbMcus:176 - Found 1835 MCUs (1796 are supported by CubeMX, 1804 are visible in CubeMX)
+2021-06-04 19:43:09,514 [INFO] ApiDb:238 - Load user favorites file C:\Users\suley/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-06-04 19:43:09,515 [INFO] ApiDb:242 - User favorites MCUs=[]
+2021-06-04 19:43:09,515 [INFO] DbMcus:188 - Set 0 / 0 favorites MCUs
+2021-06-04 19:43:10,165 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-06-04 19:43:10,629 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2021-06-04 19:43:10,814 [INFO] DbBoardsPdsc:91 - Found 24 items
+2021-06-04 19:43:10,826 [INFO] DbBoardsPdsc:91 - Found 9 items
+2021-06-04 19:43:10,842 [INFO] DbBoardsPdsc:91 - Found 32 items
+2021-06-04 19:43:10,856 [INFO] DbBoardsPdsc:91 - Found 1 items
+2021-06-04 19:43:10,875 [INFO] DbBoardsPdsc:91 - Found 45 items
+2021-06-04 19:43:10,896 [INFO] DbBoardsPdsc:91 - Found 41 items
+2021-06-04 19:43:10,909 [INFO] DbBoardsPdsc:91 - Found 2 items
+2021-06-04 19:43:10,923 [INFO] DbBoardsPdsc:91 - Found 4 items
+2021-06-04 19:43:10,930 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2021-06-04 19:43:10,930 [WARN] DbBoardsPdsc:255 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2021-06-04 19:43:10,933 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2021-06-04 19:43:10,934 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2021-06-04 19:43:10,934 [WARN] DbBoardsPdsc:255 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2021-06-04 19:43:10,961 [INFO] DbBoardsJson:85 - JSON generation date=Thu Feb 04 19:53:45 TRT 2021 (1612457625)
+2021-06-04 19:43:10,969 [INFO] DbBoards:118 - Found 160 boards (155 are supported by CubeMX)
+2021-06-04 19:43:10,990 [INFO] DbBoardsDocs:145 - JSON generation date=Mon Feb 08 16:35:07 TRT 2021 (1612791307)
+2021-06-04 19:43:11,012 [INFO] DbBoardsDocs:81 - Found 193 boards documents
+2021-06-04 19:43:11,013 [WARN] DbBoards:128 - board B-L462E-CELL1 has no document id list !
+2021-06-04 19:43:11,013 [WARN] DbBoards:128 - board B-L475E-IOT01A2 has no document id list !
+2021-06-04 19:43:11,014 [WARN] DbBoards:128 - board NUCLEO-G0B1RE has no document id list !
+2021-06-04 19:43:11,015 [WARN] DbBoards:128 - board NUCLEO-H743ZI2 has no document id list !
+2021-06-04 19:43:11,016 [WARN] DbBoards:128 - board NUCLEO-L4A6ZG has no document id list !
+2021-06-04 19:43:11,016 [WARN] DbBoards:128 - board NUCLEO-WB55RG has no document id list !
+2021-06-04 19:43:11,016 [WARN] DbBoards:128 - board NUCLEO-WL55JC1 has no document id list !
+2021-06-04 19:43:11,016 [WARN] DbBoards:128 - board NUCLEO-WL55JC2 has no document id list !
+2021-06-04 19:43:11,016 [WARN] DbBoards:128 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-BFA001V1B has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-BFA001V2B has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-IDP005V1 has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-IDP005V2 has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-STWINKT1 has no document id list !
+2021-06-04 19:43:11,017 [WARN] DbBoards:128 - board STEVAL-STWINKT1B has no document id list !
+2021-06-04 19:43:11,018 [WARN] DbBoards:128 - board STM32F401C-DISCO has no document id list !
+2021-06-04 19:43:11,019 [WARN] DbBoards:128 - board STM32F769I-DISC1 has no document id list !
+2021-06-04 19:43:11,019 [WARN] DbBoards:128 - board STM32G0C1E-EV has no document id list !
+2021-06-04 19:43:11,020 [WARN] DbBoards:128 - board STM32G474E-EVAL1 has no document id list !
+2021-06-04 19:43:11,020 [WARN] DbBoards:128 - board STM32H743I-EVAL2 has no document id list !
+2021-06-04 19:43:11,020 [WARN] DbBoards:128 - board STM32H747I-DISC1 has no document id list !
+2021-06-04 19:43:11,020 [WARN] DbBoards:128 - board STM32H753I-EVAL2 has no document id list !
+2021-06-04 19:43:11,021 [WARN] DbBoards:128 - board STM32L-DISCOVERY has no document id list !
+2021-06-04 19:43:11,022 [WARN] DbBoards:128 - board STM32MP157A-DK1 has no document id list !
+2021-06-04 19:43:11,022 [WARN] DbBoards:128 - board STM32MP157F-DK2 has no document id list !
+2021-06-04 19:43:11,022 [WARN] DbBoards:128 - board STM32MP157F-EV1 has no document id list !
+2021-06-04 19:43:11,520 [ERROR] DbBoards:190 - Image file not found for board NUCLEO-WL55JC: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2021-06-04 19:43:11,778 [ERROR] DbBoards:190 - Image file not found for board STEVAL-STWINKT1B: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2021-06-04 19:43:12,337 [ERROR] DbBoards:190 - Image file not found for board STM32H7B3I-EVAL: C:\ST\STM32CubeIDE_1.5.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.1.1.202012091304\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2021-06-04 19:43:12,606 [INFO] ApiDb:238 - Load user favorites file C:\Users\suley/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2021-06-04 19:43:12,606 [INFO] ApiDb:242 - User favorites Boards=[STM32F407G-DISC1]
+2021-06-04 19:43:12,607 [INFO] DbBoards:207 - Set 1 / 1 favorites Boards
+2021-06-04 19:43:12,896 [INFO] MultiScanPanel:198 - Auto-refresh data requested => check proxy status ongoing
+2021-06-04 19:43:12,994 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-06-04 19:43:13,034 [INFO] BoardFilterPanel:214 - Update 1 favorites Boards
+2021-06-04 19:43:13,064 [INFO] MultiScanPanel:198 - Auto-refresh data requested => check proxy status ongoing
+2021-06-04 19:43:13,204 [INFO] ApiDb:466 - Connected to CubeFinder SQLite database (C:\Users\suley\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2021-06-04 19:43:14,078 [INFO] DbExamplesSqlite:410 - Ignored 35 examples not supported by CubeIDE
+2021-06-04 19:43:14,078 [INFO] DbExamplesSqlite:411 - Found 4965 examples active
+2021-06-04 19:43:14,079 [INFO] DbExamplesSqlite:412 - Found 130 examples obsolete
+2021-06-04 19:43:14,079 [INFO] DbExamplesSqlite:413 - Found 0 examples under development
+2021-06-04 19:43:14,079 [INFO] DbExamplesSqlite:414 - Found 76 examples not building
+2021-06-04 19:43:14,112 [INFO] DbExamplesSqlite:106 - CubeFinder database Data Model version=2.1
+2021-06-04 19:43:14,112 [INFO] DbExamplesSqlite:107 - CubeFinder database Configuration version=2.16
+2021-06-04 19:43:14,113 [INFO] DbExamplesSqlite:108 - CubeFinder database generation date=2021-02-26 (1614349247)
+2021-06-04 19:43:14,113 [INFO] DbExamplesSqlite:109 - CubeFinder database FW Pack versions=[STM32Cube_FW_F4_V1.26.0, STM32Cube_FW_F7_V1.16.0, STM32Cube_FW_G0_V1.4.0, STM32Cube_FW_G4_V1.4.0, STM32Cube_FW_H7_V1.9.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_WB_V1.11.0, STM32Cube_FW_WL_V1.0.0, X-CUBE-AZRTOS-H7_V1.0.0, X-CUBE-BLE2_V3.2.0, X-CUBE-GNSS1_V5.2.0]
+2021-06-04 19:43:14,114 [INFO] DbExamples:126 - Found 5006 examples
+2021-06-04 19:43:14,620 [ERROR] DbExamples:202 - Found 382 examples with invalid data (board or MCU)
+2021-06-04 19:43:14,620 [INFO] DbExamples:218 - Found 62 boards with related examples
+2021-06-04 19:43:14,636 [INFO] DbExamples:231 - Found 50 MCUs with related examples
+2021-06-04 19:43:14,663 [INFO] ApiDb:229 - User favorites file not found: C:\Users\suley/.stm32cubeide/favorites.examples.txt
+2021-06-04 19:43:14,663 [INFO] DbExamples:252 - Set 0 / 0 favorites Examples
+2021-06-04 19:43:14,872 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_F4_V1.26.0'
+2021-06-04 19:43:14,873 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_F7_V1.16.0'
+2021-06-04 19:43:14,875 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_G0_V1.4.0'
+2021-06-04 19:43:14,876 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_G4_V1.4.0'
+2021-06-04 19:43:14,877 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_H7_V1.9.0'
+2021-06-04 19:43:14,877 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_L5_V1.4.0'
+2021-06-04 19:43:14,878 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_WB_V1.11.0'
+2021-06-04 19:43:14,879 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'STM32Cube_FW_WL_V1.0.0'
+2021-06-04 19:43:14,880 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'X-CUBE-AZRTOS-H7_V1.0.0'
+2021-06-04 19:43:14,880 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'X-CUBE-BLE2_V3.2.0'
+2021-06-04 19:43:14,880 [INFO] SoftwarePacks:122 - Download is needed for SW pack 'X-CUBE-GNSS1_V5.2.0'
+2021-06-04 19:43:15,632 [WARN] DetailPanel:347 - Failed to get advertising image, set to default
+2021-06-04 19:43:16,086 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,086 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,087 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,087 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,087 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,088 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,088 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,088 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,089 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,089 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,089 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,090 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,090 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,091 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,091 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,091 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,092 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,092 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,093 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,093 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,094 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,094 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,094 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,095 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,095 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,095 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,096 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,096 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,096 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,097 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,097 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,097 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,097 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,097 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,098 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,098 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,098 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,098 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,099 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,099 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,099 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,099 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,100 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,100 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,100 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,100 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,101 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,101 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,101 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,101 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,101 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,102 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,102 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,102 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,102 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,103 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,103 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,103 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,103 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,104 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,104 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,104 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,104 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,105 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,105 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,105 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,105 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,106 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,106 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,106 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,106 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,106 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,107 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,107 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,107 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,108 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,108 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,109 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,109 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,109 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,110 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,110 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,110 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,110 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,111 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,111 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,111 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,111 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,112 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,112 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,112 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,112 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,113 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,113 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,113 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,113 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,114 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,114 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,114 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,114 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,115 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,115 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,115 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,115 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,115 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,116 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,116 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,116 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,116 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,117 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,117 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,117 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,117 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,118 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,118 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,118 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,118 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,118 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,119 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,119 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,119 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,119 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,120 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,120 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,120 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,120 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,121 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,121 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,121 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,121 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,122 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,122 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,122 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,122 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,123 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,123 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,123 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,123 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,124 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,124 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,124 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,125 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,125 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,125 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,126 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,126 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,126 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,126 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,127 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,127 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,127 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,128 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,128 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,128 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,128 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,129 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,129 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,129 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,129 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,129 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,130 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,130 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,130 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,130 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,131 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,131 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,131 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,131 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,132 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,132 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,132 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,132 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,133 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,133 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,133 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,133 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,134 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,134 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,134 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,135 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,135 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,135 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,135 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,136 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,136 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,136 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,136 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,137 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,137 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,137 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,137 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,138 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,138 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,138 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,138 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,138 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,139 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,139 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,140 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,140 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,140 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,141 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,141 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,142 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,142 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,143 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,143 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,143 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,144 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,144 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,144 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,145 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,145 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,146 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,146 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,146 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,147 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,147 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,147 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,148 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,148 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,148 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,149 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,149 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,149 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,150 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,150 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,150 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,151 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,151 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,151 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,152 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,152 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,152 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,153 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,153 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,153 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,154 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,154 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,154 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,155 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,155 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,155 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,156 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,156 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,157 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,157 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,157 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,158 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,159 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,160 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,161 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,161 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,161 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,162 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,162 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,163 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,163 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,163 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,164 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,164 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,164 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,165 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,165 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,165 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,166 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,166 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,166 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,167 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,167 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,168 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,168 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,168 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,169 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,169 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,169 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,170 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,170 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,170 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,171 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,171 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,171 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,172 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,172 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,172 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,173 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,173 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,174 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,174 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,175 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,175 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,175 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,176 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,176 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,176 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,177 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,177 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,177 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,178 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,178 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,179 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,179 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,179 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,179 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,180 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,180 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,180 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,181 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,181 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,182 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,182 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,182 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,183 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,183 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,183 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,184 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,184 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,185 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,185 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,185 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,186 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,186 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,186 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,187 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,187 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,187 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,188 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,188 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,188 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,189 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,189 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,189 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,190 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,190 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,190 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,191 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,191 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,192 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,192 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,192 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,193 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,193 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,193 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,194 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,195 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,195 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,196 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,196 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,196 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,197 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,197 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,197 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,198 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,198 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,198 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,199 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,199 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,200 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,200 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,200 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,201 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,201 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,201 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,202 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,202 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,202 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,203 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,203 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,203 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,204 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,204 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,204 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,205 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,205 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,206 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,206 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,206 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,207 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,207 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,207 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,208 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,208 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,208 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,209 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,209 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,209 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,210 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,210 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,210 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,211 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,211 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,211 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,212 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,212 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,212 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,213 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,213 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,213 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,214 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,214 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,214 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,215 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,215 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,215 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,215 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,216 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,216 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,216 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,216 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,217 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,217 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,217 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,217 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,218 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,218 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,218 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,218 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,218 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,219 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,219 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,219 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,219 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,220 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,220 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,220 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,220 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,221 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,221 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,221 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,221 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,222 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,222 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,222 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,222 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,223 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,223 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,223 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,223 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,224 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,224 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,224 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,225 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,225 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,226 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,226 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,226 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,226 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,227 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,227 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,227 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,227 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,228 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,228 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,228 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,228 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,229 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,229 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,229 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,229 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,230 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,230 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,230 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,230 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,231 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,231 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,231 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,231 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,231 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,232 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,232 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,232 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,232 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,233 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,233 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,233 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,233 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,234 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,234 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,234 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,234 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,235 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,235 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,235 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,236 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,236 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,236 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,236 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,237 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,237 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,237 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,238 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,238 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,238 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,239 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,239 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,240 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,240 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,240 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,241 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,241 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,241 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,242 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,242 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,243 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,243 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,243 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,243 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,244 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,364 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,364 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,365 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,365 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,366 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,366 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,366 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,366 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,367 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,367 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,367 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,368 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,368 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,368 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,369 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,369 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,370 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,370 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,370 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,371 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,371 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,372 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,372 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,372 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,373 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,373 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,373 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,373 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,374 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,374 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,374 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,375 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,375 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,375 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,376 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,377 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,377 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,377 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,378 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,378 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,378 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,379 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,379 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,380 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,380 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,380 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,381 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,381 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,381 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,381 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,382 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,382 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,382 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,383 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,383 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,383 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,383 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,384 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,384 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,385 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,385 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,385 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,386 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,386 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,387 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,387 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,387 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,388 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,388 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,388 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,388 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,389 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,389 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,389 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,390 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,390 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,390 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,390 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,391 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,391 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,391 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,392 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,392 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,392 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,393 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,393 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,393 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,393 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,394 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,394 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,394 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,395 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,395 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,395 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,396 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,396 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,396 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,397 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,397 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,398 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,398 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,398 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,399 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,399 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,399 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,399 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,400 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,400 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,400 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,401 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,401 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,401 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,402 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,402 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,402 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,402 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,403 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,403 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,403 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,404 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,404 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,404 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,405 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,405 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,405 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,406 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,406 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,406 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,407 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,407 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,407 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,408 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,409 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,409 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,410 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,410 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,410 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,411 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,411 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,412 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,412 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,413 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,413 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,414 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,414 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,415 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,416 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,416 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,417 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,417 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,417 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,418 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,418 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,419 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,419 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,419 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,420 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,420 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,420 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,421 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,421 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,421 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,422 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,422 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,422 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,423 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,423 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,423 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,424 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,424 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,424 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,425 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,425 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,425 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,426 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,426 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,426 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,427 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,427 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,427 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,428 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,429 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,429 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,429 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,430 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,430 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,430 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,431 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,431 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,431 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,431 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,432 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,432 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,432 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,433 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,433 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,433 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,434 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,435 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,435 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,436 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,436 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,437 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,437 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,437 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,438 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,438 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,438 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,439 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,439 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,439 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,440 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,440 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,440 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,441 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,441 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,441 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,441 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,442 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,442 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,442 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,443 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,443 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,444 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,444 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,444 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,445 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,445 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,445 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,446 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,446 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,446 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,447 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,447 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,447 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,448 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,448 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,449 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,449 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,449 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,450 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,450 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,451 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,451 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,451 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,452 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,452 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,453 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,453 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,454 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,454 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,455 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,455 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,455 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,456 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,456 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,456 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,457 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,457 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,457 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,458 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,459 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,459 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,460 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,461 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,461 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,462 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,462 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,462 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,463 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,463 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,464 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,464 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,464 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,465 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,465 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,465 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,466 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,466 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,466 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,467 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,467 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,468 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,468 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,468 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,469 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,469 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,469 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,470 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,470 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,470 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,471 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,472 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,475 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,478 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,480 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,482 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,482 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,483 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,483 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,484 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,484 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,484 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,485 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,485 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,485 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,486 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,486 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,486 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,487 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,487 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,487 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,488 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,488 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,488 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,489 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,489 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,489 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,490 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,490 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,490 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,491 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,492 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,492 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,493 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,494 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,494 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,494 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,495 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,495 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,495 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,496 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,496 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,497 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,497 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,498 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,498 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,498 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,499 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,499 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,499 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,500 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,500 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,500 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,501 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,501 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,501 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,502 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,502 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,503 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,503 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,503 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,504 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,504 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,504 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,505 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,505 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,505 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,506 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,506 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,506 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,507 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,507 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,508 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,508 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,509 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,509 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,510 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,510 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,510 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,511 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,511 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,512 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,512 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,513 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,513 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,514 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,514 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,515 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,516 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,516 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,517 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,517 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,518 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,519 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,519 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,519 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,520 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,520 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,520 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,521 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,521 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,522 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,522 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,523 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,524 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,524 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,525 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,526 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,526 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,526 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,527 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,527 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,528 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,529 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,529 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,530 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,530 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,531 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,531 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,532 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,533 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,533 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,534 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,534 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,535 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,535 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,536 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,536 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,537 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,538 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,538 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,539 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,540 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,540 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,541 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,542 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,543 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,544 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,545 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,545 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,545 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,546 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,546 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,546 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,547 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,547 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,548 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,548 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,548 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,549 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,549 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,549 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,550 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,550 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,550 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,551 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,551 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,551 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,552 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,552 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,553 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,553 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,553 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,554 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,554 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,554 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,554 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,555 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,555 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,556 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,557 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,557 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,557 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,558 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,558 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,559 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,560 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,560 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,561 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,561 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,562 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,562 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,562 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,563 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,563 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,564 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,564 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,565 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,565 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,566 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,566 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,567 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,567 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,568 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,569 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,569 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,569 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,570 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,570 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,571 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,571 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,572 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,573 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,573 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,574 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,574 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,575 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,576 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,576 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,577 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,578 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,578 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,579 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,579 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,579 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,580 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,580 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,580 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,581 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,581 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,582 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,582 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,582 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,583 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,583 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,583 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,584 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,584 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,585 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,585 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,585 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,586 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,586 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,587 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,587 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,587 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,588 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,588 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,588 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,589 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,589 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,590 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,590 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,590 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,591 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,591 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,591 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,592 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,592 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,593 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,593 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,593 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,594 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,594 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,594 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,595 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,595 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,595 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,596 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,596 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,596 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,597 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,597 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,597 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,598 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,598 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,598 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,599 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,599 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,600 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,600 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,601 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,601 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,602 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,602 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,602 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,603 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,603 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,604 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,604 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,605 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,605 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,605 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,606 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,606 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,606 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,607 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,607 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,607 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,608 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,608 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,608 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,609 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,609 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,610 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,610 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,610 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,611 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,612 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,613 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,661 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,661 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,662 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,662 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,663 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,663 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,663 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,664 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,664 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,664 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,664 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,665 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,665 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,665 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,666 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,666 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,667 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,667 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,667 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,668 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,668 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,668 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,669 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,669 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,669 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,670 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,670 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,671 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,671 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,671 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,671 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,672 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,672 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,672 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,673 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,673 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:16,673 [ERROR] AppliInfo:128 - Unknown STM32CubeMX version: 6.2.0
+2021-06-04 19:43:17,060 [INFO] ExampleFilterPanel:306 - Update 0 favorites Examples
+2021-06-04 19:43:30,398 [INFO] BoardResultTable:600 - Unmark Board STM32F407G-DISC1 as favorite
+2021-06-04 19:43:30,615 [INFO] BoardResultTable:600 - Mark Board STM32F407G-DISC1 as favorite
+2021-06-04 19:43:30,988 [INFO] BoardResultTable:600 - Unmark Board STM32F407G-DISC1 as favorite
+2021-06-04 19:43:37,202 [INFO] DbMcusDocs:145 - JSON generation date=Mon Feb 08 16:35:07 TRT 2021 (1612791307)
+2021-06-04 19:43:37,466 [INFO] DbMcusDocs:81 - Found 617 MCUs documents
+2021-06-04 19:43:47,689 [INFO] BoardResultTable:600 - Mark Board STM32F407G-DISC1 as favorite
+2021-06-04 19:43:59,134 [INFO] ApiDb:263 - Save user favorites file C:\Users\suley/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-06-04 19:43:59,134 [INFO] ApiDb:267 - User favorites MCUs=[]
+2021-06-04 19:43:59,136 [INFO] ApiDb:263 - Save user favorites file C:\Users\suley/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2021-06-04 19:43:59,136 [INFO] ApiDb:267 - User favorites Boards=[STM32F407G-DISC1]
+2021-06-04 19:43:59,139 [INFO] ApiDb:263 - Save user favorites file C:\Users\suley/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2021-06-04 19:43:59,140 [INFO] ApiDb:267 - User favorites Examples=[]
+2021-06-04 21:42:29,506 [INFO] Activator:170 - 
+
+
+2021-06-04 21:42:29,508 [INFO] Activator:171 - !SESSION log4j initialized
+2021-06-04 21:42:32,635 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2021-06-04 21:42:32,639 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2021-06-04 21:42:32,644 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2021-06-04 21:43:02,170 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Socket closed
+2021-06-04 21:43:02,173 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80

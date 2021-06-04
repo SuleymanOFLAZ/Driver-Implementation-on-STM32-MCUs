@@ -131,6 +131,12 @@ void SPI_CloseReception(SPI_Handle_t *pSPIHandle);
  */
 void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t AppEv);
 
+/*
+ * SPI IRQ NOs
+ */
+#define IRQ_NO_SPI1	35
+#define IRQ_NO_SPI2	36
+#define IRQ_NO_SPI3	51
 
 /* SPI SR FLAGS */   // @spi_flags
 #define SPI_FLAG_RXNE		0

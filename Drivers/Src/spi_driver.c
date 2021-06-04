@@ -338,7 +338,7 @@ void SPI_IRQHandling(SPI_Handle_t *pHandle)
  */
 uint8_t SPI_SendDataIT(SPI_Handle_t *pSPIHandle, uint8_t *pTxBuffer, uint32_t Len)
 {
-	uint8_t state = pSPIHandle->TxState;
+	volatile uint8_t state = pSPIHandle->TxState;
 
 	if(state != SPI_BUSY_IN_TX)
 	{
@@ -370,7 +370,7 @@ uint8_t SPI_SendDataIT(SPI_Handle_t *pSPIHandle, uint8_t *pTxBuffer, uint32_t Le
  */
 uint8_t SPI_ReceiveDataIT(SPI_Handle_t *pSPIHandle, uint8_t *pRxBuffer, uint32_t Len)
 {
-	uint8_t state = pSPIHandle->RxState;
+	volatile uint8_t state = pSPIHandle->RxState;
 
 	if(state != SPI_BUSY_IN_RX)
 	{
@@ -509,7 +509,7 @@ static void spi_txe_interrupt_handle(SPI_Handle_t *pSPIHandle)
 	else
 	{
 		// If DFF is 16-bit
-		pSPIHandle->pSPIx->SPI_DR = *(uint16_t *)pSPIHandle->pTxBuffer;
+		pSPIHandle->pSPIx->SPI_DR = *(uint16_t*)pSPIHandle->pTxBuffer;
 		(uint16_t *)pSPIHandle->pTxBuffer++;
 		pSPIHandle->TxLen-=2;
 	}
@@ -538,14 +538,14 @@ static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIHandle)
 	if( !((pSPIHandle->pSPIx->SPI_CR1 >> 11) & 1) ) // Check DFF
 	{
 		// If DFF is 8-bit
-		pSPIHandle->pSPIx->SPI_DR = *pSPIHandle->pRxBuffer;
+		*pSPIHandle->pRxBuffer = pSPIHandle->pSPIx->SPI_DR;
 		pSPIHandle->pRxBuffer++;
 		pSPIHandle->RxLen--;
 	}
 	else
 	{
 		// If DFF is 16-bit
-		pSPIHandle->pSPIx->SPI_DR = *(uint16_t *)pSPIHandle->pRxBuffer;
+		*(uint16_t *)pSPIHandle->pRxBuffer = pSPIHandle->pSPIx->SPI_DR;
 		(uint16_t *)pSPIHandle->pRxBuffer++;
 		pSPIHandle->RxLen-=2;
 	}

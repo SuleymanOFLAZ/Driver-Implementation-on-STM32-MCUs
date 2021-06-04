@@ -28,34 +28,34 @@ endif
 
 -include ../makefile.defs
 
-BUILD_ARTIFACT_NAME := stm32f4xx_drivers
+BUILD_ARTIFACT_NAME := Driver-Implementation-on-STM32-MCUs
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX := 
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME).$(BUILD_ARTIFACT_EXTENSION)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-stm32f4xx_drivers.elf \
+Driver-Implementation-on-STM32-MCUs.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-stm32f4xx_drivers.list \
+Driver-Implementation-on-STM32-MCUs.list \
 
 OBJCOPY_BIN += \
-stm32f4xx_drivers.bin \
+Driver-Implementation-on-STM32-MCUs.bin \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: stm32f4xx_drivers.elf secondary-outputs
+main-build: Driver-Implementation-on-STM32-MCUs.elf secondary-outputs
 
 # Tool invocations
-stm32f4xx_drivers.elf: $(OBJS) $(USER_OBJS) C:\Users\suley\OneDrive\Belgeler\GIT\stm32f4xx_drivers\STM32F407VGTX_FLASH.ld
-	arm-none-eabi-gcc -o "stm32f4xx_drivers.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\suley\OneDrive\Belgeler\GIT\stm32f4xx_drivers\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f4xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Driver-Implementation-on-STM32-MCUs.elf: $(OBJS) $(USER_OBJS) C:\Users\suley\OneDrive\Belgeler\GIT\Driver-Implementation-on-STM32-MCUs\STM32F407VGTX_FLASH.ld
+	arm-none-eabi-gcc -o "Driver-Implementation-on-STM32-MCUs.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\suley\OneDrive\Belgeler\GIT\Driver-Implementation-on-STM32-MCUs\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Driver-Implementation-on-STM32-MCUs.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -64,13 +64,13 @@ default.size.stdout: $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-stm32f4xx_drivers.list: $(EXECUTABLES)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "stm32f4xx_drivers.list"
+Driver-Implementation-on-STM32-MCUs.list: $(EXECUTABLES)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Driver-Implementation-on-STM32-MCUs.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-stm32f4xx_drivers.bin: $(EXECUTABLES)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "stm32f4xx_drivers.bin"
+Driver-Implementation-on-STM32-MCUs.bin: $(EXECUTABLES)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "Driver-Implementation-on-STM32-MCUs.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 

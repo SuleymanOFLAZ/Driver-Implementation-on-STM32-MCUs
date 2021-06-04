@@ -364,7 +364,7 @@ void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber)
  *
  * @Note		- none
  */
-void GPIO_IRQConfig(uint8_t IRQNumber, uint8_t IRQPriority, uint8_t EnorDi)
+void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
 {
 	volatile uint8_t temp1 = IRQNumber / 32;
 	volatile uint8_t temp2 = IRQNumber % 32;
@@ -392,7 +392,7 @@ void GPIO_IRQConfig(uint8_t IRQNumber, uint8_t IRQPriority, uint8_t EnorDi)
  *
  * @Note		- none
  */
-void GIPO_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority)
+void GPIO_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority)
 {
 	volatile uint8_t temp1 = IRQNumber / 4;
 	volatile uint8_t temp2 = IRQNumber % 4;
@@ -422,7 +422,7 @@ void GPIO_IRQHandling(uint8_t PinNumber)
 	// Check the IRQ Pending bit set or reset
 	if(EXTI->PR & (1 << PinNumber))
 	{
-		// Clear the Pending Bit
-		EXTI->PR |= (1 << PinNumber);
+		// set the Pending Bit for clearing it
+		EXTI->PR = (1 << PinNumber);
 	}
 }
