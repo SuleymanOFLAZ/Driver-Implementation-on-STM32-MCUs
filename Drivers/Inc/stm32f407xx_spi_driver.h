@@ -5,8 +5,8 @@
  *      Author: suleyman
  */
 
-#ifndef INC_SPI_DRIVER_H_
-#define INC_SPI_DRIVER_H_
+#ifndef INC_STM32F407XX_SPI_DRIVER_H_
+#define INC_STM32F407XX_SPI_DRIVER_H_
 
 #include "stm32f407xx.h"
 
@@ -160,4 +160,4 @@ void SPI_ApplicationEventCallback(SPI_Handle_t *pSPIHandle, uint8_t AppEv);
 #define SPI_EVENT_OVR_ERR	3
 #define SPI_EVENT_CRC_ERR	4
 
-#endif /* INC_SPI_DRIVER_H_ */
+#endif /* INC_STM32F407XX_SPI_DRIVER_H_ */

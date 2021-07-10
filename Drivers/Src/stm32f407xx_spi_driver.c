@@ -4,7 +4,7 @@
  *  Created on: May 1, 2021
  *      Author: suleyman
  */
-#include "stm32f407xx.h"
+#include "stm32f407xx_spi_driver.h"
 
 /*
  * Some interrupt handling helper functions
